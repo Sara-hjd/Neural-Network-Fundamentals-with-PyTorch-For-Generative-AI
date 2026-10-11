@@ -1,0 +1,27 @@
+[project]
+name = "tp1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=5.1.0",
+    "ipykernel>=7.4.0",
+    "jupyterlab>=4.6.4",
+    "matplotlib>=3.11.2",
+    "nltk>=3.10.3",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+    "spacy>=3.8.16",
+    "torch>=2.14.1",
+    "transformers>=5.19.0",
+]
+
+[project.scripts]
+tp1 = "tp1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
